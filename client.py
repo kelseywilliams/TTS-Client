@@ -9,7 +9,6 @@ import password
 # Instantiates a client
 client = texttospeech.TextToSpeechClient()
 while True:
-    print("Fetching posts")
     req = requests.post("https://kelseywilliams.net/TTS-Server/api.php", data = {"password":password.PASSWORD,"filter":"unread"})
 
     # It's important to note that if the json response holds no keys, it cannot be converted to a dictionary as python won't create

@@ -1,3 +1,4 @@
 *.mp3
 *.json
 password.py
+set_tts_var
