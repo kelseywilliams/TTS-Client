@@ -1,3 +1,10 @@
+#Hello future me.  In the event that you do decide to run this program, most of it should work, however,
+# the google api code may need some reworking as google interface code usually does.  In the event that
+# the code runs smoothly and you have the proper credentials stashed in this directory and have the google
+# sdk installed and operational or whatever the hell google wants, the bash script "set_tts_var" has been added
+# to the directory for your convenience!  Simply add the path to the credentials JSON file and run that bad boy before
+# starting this application.
+
 from google.cloud import texttospeech
 import pygame
 import requests
